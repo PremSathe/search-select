@@ -1,0 +1,100 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container */
+.box {
+  width: 18rem;
+  height: 20rem;
+  font-weight: 500;
+}
+
+/* Select dropdown */
+.select {
+  background-color: white;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.25rem;
+}
+
+/* Arrow rotation */
+.uparrow {
+  rotate: 180deg;
+}
+
+/* Dropdown list */
+.dropdown {
+  // padding: 10px;
+  background-color: white;
+  margin-top: 0.5rem;
+  overflow-y: auto;
+}
+
+/* Input container */
+.input {
+  border: 1px solid var(--lightmode-primary-black, #0b0b0c);
+  border-radius: 4px;
+  background: var(--lightmode-primary-white, #fff);
+  display: flex;
+  align-items: center;
+  padding: 5px 12px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  & .li {
+    background-color: red;
+  }
+}
+
+/* Search icon */
+.input .icons {
+  margin-left: 1rem;
+
+  color: #4a5568;
+}
+
+/* Search input */
+.list {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+}
+
+/* Placeholder text color */
+.list .placeholder {
+  color: #4a5568;
+}
+
+/* Padding utility */
+.p-2 {
+  padding: 0.5rem;
+}
+
+/* Text size utility */
+.text-sm {
+  font-size: 0.875rem;
+}
+
+/* Hover effects */
+.hover\:bg-sky-600:hover {
+  /* background-color: #3182ce; */
+}
+
+.hover\:text-white:hover {
+  color: #eb5060;
+}
+
+/* Display utilities */
+.block {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
